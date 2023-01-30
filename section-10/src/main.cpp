@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -17,6 +18,8 @@ int main() {
         cout << endl;
 
         cin >> choice;
+        cin.clear();
+        cin.ignore(10000,'\n');
         switch (choice) {
             case 'E':
             case 'e':{
