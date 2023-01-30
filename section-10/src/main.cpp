@@ -7,6 +7,7 @@ int main() {
     string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
     string key  {"XZNLWEBGJHQDYVTKFUOMPCIASRxznlwebgjhqdyvtkfuompciasr"};
     bool quit = {false};
+    char choice {};
 
     while (!quit) {
         cout << "Do you wish to encrypt or decrypt a message?" << endl;
@@ -15,7 +16,6 @@ int main() {
         cout << "Press 'Q' to quit" << endl;
         cout << endl;
 
-        char choice {};
         cin >> choice;
         switch (choice) {
             case 'E':
